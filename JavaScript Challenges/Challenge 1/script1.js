@@ -80,3 +80,18 @@ console.log(5 > 3);
 console.log(5 >= 5);
 console.log(3 < 5);
 console.log(3 <= 3);
+
+//step8
+let result0 = 5 + 3 * 2;
+let result1 = 10 / 2 + 3;
+let result2 = 10 / (2 + 3);
+
+console.log("Result 0:", result0);
+console.log("Result 1:", result1);
+console.log("Result 2:", result2);
+
+console.log(result1 > result2);
+
+console.log(
+  "Result 1 is the sum of 10/2 and 3, while Result 2 is 10 divided by (2+3)."
+);
