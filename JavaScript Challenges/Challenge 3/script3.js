@@ -43,3 +43,14 @@ function compute(num1, num2, operation) {
       return "Invalid operation";
   }
 }
+
+//step2
+
+let globalVar = "global variable";
+const squareNumber = (number) => {
+  console.log(globalVar);
+  let localVar = " local variable ";
+  return number * number;
+};
+
+console.log(localVar);
