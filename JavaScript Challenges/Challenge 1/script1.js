@@ -39,3 +39,25 @@ console.log(typeof obj, obj);
 console.log(typeof arr, arr);
 console.log(typeof n, n);
 console.log(typeof u, u);
+
+//step5
+
+let myText = "step5";
+
+const counter = 3;
+const backtick = `This is my text using backticks ${counter} times`;
+const singleQuote =
+  "This is my text using single quotations " + counter + " times";
+const doubleQuote =
+  "This is my text using double quotations " + counter + " times";
+const tryThisAlso = `This is my new version, it’s the ${2 + 3}th version`;
+
+console.log(myText);
+console.log(backtick);
+console.log(singleQuote);
+console.log(doubleQuote);
+console.log(tryThisAlso);
+
+console.log(
+  "Backtick allows interpolation, while single and double quotes do not."
+);
