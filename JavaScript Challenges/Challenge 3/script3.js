@@ -54,3 +54,35 @@ const squareNumber = (number) => {
 };
 
 console.log(localVar);
+
+//step3
+
+//for loop
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+//while loop
+let countDown = 10;
+while (countDown >= 1) {
+  console.log(countDown);
+  countDown--;
+}
+
+// Do-While Loop
+
+let number = 1;
+do {
+  if (number % 2 === 0) {
+    console.log(number);
+  }
+  number++;
+} while (number <= 10);
+
+// Advanced Loop Challenge
+
+const favoriteFruits = ["apple", "banana", "strawberry", "kiwi", "watermelon"];
+for (let fruit of favoriteFruits) {
+  if (fruit.length > 5) {
+    console.log(fruit);
+  }
+}
