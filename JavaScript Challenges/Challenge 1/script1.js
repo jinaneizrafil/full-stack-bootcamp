@@ -61,3 +61,10 @@ console.log(tryThisAlso);
 console.log(
   "Backtick allows interpolation, while single and double quotes do not."
 );
+
+//step6
+let str1 = "step";
+let str2 = "6";
+let result = str1 + str2;
+
+console.log(result);
